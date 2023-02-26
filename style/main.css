@@ -57,8 +57,8 @@ main h3 {
 }
 /* Skill */
 #skill img {
-    max-width: 150px;
-    width: 50%;
+    max-width: 200px;
+    width: 60%;
 }
 #skill ul {
     display: flex;
@@ -86,4 +86,32 @@ main h3 {
     border: #5D2D22 solid 3px;
     transform: scale(1.2);
 }
+/* Strengths */
 /* Hobby */
+/* Contact */
+#contact .name, .tel, .mail {
+    border: #5D2D22 solid 3px;
+    border-radius: 10px;
+    background-color: #FAF6E3;
+    height: 30px;
+    font-size: 20px;
+    color: #5D2D22;
+}
+#contact textarea {
+    border: #5D2D22 solid 3px;
+    border-radius: 10px;
+    background-color: #FAF6E3;
+    font-size: 20px;
+    width: 100%;
+    color: #5D2D22;
+}
+#contact .send {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5D2D22;
+    color: #FAF6E3;
+    border: #5D2D22 solid 3px;
+}

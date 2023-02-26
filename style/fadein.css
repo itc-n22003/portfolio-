@@ -1,7 +1,7 @@
 .fadein {
     opacity: 0;
     transform: translateY(-100px);
-    transition: all 1s;
+    transition: all 2s;
 }
 .fadein.scrollin {
     opacity: 1;

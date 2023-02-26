@@ -4,7 +4,7 @@ function fade() {
             const targetElement = $(this).offset().top;
             const scroll = $(window).scrollTop();
             const windowHeight = $(window).height();
-            if (scroll > targetElement - windowHeight + 250) {
+            if (scroll > targetElement - windowHeight + 200) {
                 $(this).addClass('scrollin');
             }
         });
