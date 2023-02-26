@@ -1,0 +1,88 @@
+main {
+    margin: 50px;
+}
+ul {
+    padding: 0;
+}
+section {
+    margin-bottom: 100px;
+}
+section:last-child {
+    margin-bottom: 0;
+}
+.sub-title {
+    font-size: 4.5em;  
+}
+main p {
+    font-size: 1.7em;
+}
+main h3 {
+    font-size: 2.5em;
+}
+/* About */
+/* Profile */
+#profile img {
+    border-radius: 100%;
+    width: 20%;
+}
+#profile .img {
+    display: flex;
+    align-items: center;
+}
+#profile .img p {
+    margin-left: 70px;
+}
+/* Work */
+#work div {
+    display: flex;
+    align-items: center;
+}
+#work div a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 80px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5D2D22;
+    color: #FAF6E3;
+    border: #5D2D22 solid 3px;
+    transition: 0.3s;
+}
+#work div a:hover {
+    background-color: #FAF6E3;
+    color: #5D2D22;
+    border: #5D2D22 solid 3px;
+    transform: scale(1.2);
+}
+/* Skill */
+#skill img {
+    width: 50%;
+}
+#skill ul {
+    display: flex;
+    text-align: center;
+}
+#skill div {
+    display: flex;
+    align-items: center;
+}
+#skill div a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 80px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5D2D22;
+    color: #FAF6E3;
+    border: #5D2D22 solid 3px;
+    transition: 0.3s;
+}
+#skill div a:hover {
+    background-color: #FAF6E3;
+    color: #5D2D22;
+    border: #5D2D22 solid 3px;
+    transform: scale(1.2);
+}
+/* Hobby */

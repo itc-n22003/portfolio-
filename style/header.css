@@ -1,0 +1,19 @@
+header {
+    background-color: #5D2D22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li {
+    float: left;
+}
+header h1 {
+    color: #FAF6E3;
+    font-size: 3.5em;
+    margin: 40px;
+}
+header a {
+    color: #FAF6E3;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
