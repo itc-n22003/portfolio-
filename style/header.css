@@ -1,20 +1,19 @@
 header {
-    background-color: #FAF6E3;
+    background-color: #5D2D22;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: #5D2D22 solid 5px;
 }
 header li {
     float: left;
 }
 header h1 {
-    color: #5D2D22;
+    color: #FAF6E3;
     font-size: 3.5em;
     margin: 40px;
 }
 header a {
-    color: #5D2D22;
+    color: #FAF6E3;
     font-size: 1.5em;
     margin-right: 20px;
 }

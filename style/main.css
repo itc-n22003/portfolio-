@@ -88,8 +88,22 @@ main h3 {
 }
 /* Strengths */
 /* Hobby */
+#hobby .music {
+    display: flex;
+}
+#hobby details {
+    font-size: 1.7rem;
+    margin: 0 20px;
+    text-align: center;
+}
+#hobby a {
+    border-bottom: #5D2D22 solid 3px;
+    font-style: italic;
+}
 /* Contact */
-#contact .name, .tel, .mail {
+#contact .name,
+#contact .tel,
+#contact .mail {
     border: #5D2D22 solid 3px;
     border-radius: 10px;
     background-color: #FAF6E3;
@@ -114,4 +128,5 @@ main h3 {
     background-color: #5D2D22;
     color: #FAF6E3;
     border: #5D2D22 solid 3px;
+    margin-top: 40px;
 }
